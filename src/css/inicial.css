@@ -395,6 +395,10 @@ footer .listFooter ul li a:hover {
     transform: scale(1.1);
 }
 
+footer img:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+  }
 
 /* Responsividade */
 @media (max-width: 768px) {
