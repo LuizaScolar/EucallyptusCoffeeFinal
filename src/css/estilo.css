@@ -159,8 +159,12 @@ header .criar-conta:hover {
   margin-bottom: 20px;
   border: 3px solid #3d230e; /* Borda consistente */
   border-radius: 10px;
-  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
-  
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5); 
+}
+
+.fazer-login input:hover{
+  transition: transform 0.5s;
+  transform: scale(1.1);
 }
 
 .fazer-login button {

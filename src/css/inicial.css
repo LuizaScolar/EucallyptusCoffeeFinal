@@ -121,6 +121,21 @@ main {
     padding: 0px 30px;
 }
 
+.title:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.texto:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+} 
+
+.text2:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
 .title{
 background-color: #5A361A; /* Cor de fundo */
            
@@ -144,8 +159,14 @@ background-color: #5A361A; /* Cor de fundo */
     border-radius: 20px;
     margin-right: 10px;
     box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
-
 }
+
+.barra:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+
 
 .buscar {
     background-color: #5A361A;
@@ -204,6 +225,11 @@ background-color: #5A361A; /* Cor de fundo */
     transition: transform 0.5s ease; /* Transição suave */
     width: 90%; /* Ajuste conforme necessário */
     height: 100%; /* Mantém a proporção da imagem */
+}
+
+.image:hover{
+    transition: transform 0.5s;
+    transform: scale(0.9);
 }
 
 .image.move-left {
