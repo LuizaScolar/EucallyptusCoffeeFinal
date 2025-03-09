@@ -1,0 +1,417 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../assets/fundo.inicial.jpg); /* Usar a mesma imagem de fundo */
+  background-size: cover;
+  color: #3d230e; /* Cor consistente com o primeiro CSS */
+  font-family: 'Poppins', sans-serif; /* Usar a mesma fonte */
+  height: 100%;
+  width: 100%;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover; /* Mantém o preenchimento total */
+  aspect-ratio: 16/9; /* Ajuste a proporção do vídeo */
+}
+
+.video-background .conteudo {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5A361A; /* Cor consistente com o primeiro CSS */
+  color: #FDDEC1; /* Cor do texto consistente */
+  padding: 30px; /* Aumenta o padding para aumentar o header */
+  border-bottom: 4px solid #3d230e;
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+header .logo {
+  border: 3px solid #3d230e;
+  border-radius: 90px;
+  height: 50px; /* Ajuste a altura da logo */
+  margin-left: 400px; /* Ajuste conforme necessário */
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+header .logo:hover {
+  text-decoration: underline;
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}
+
+
+header .criar-conta {
+  color: #FDDEC1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header .criar-conta:hover {
+  text-decoration: underline;
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}
+
+.login-secao {
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(210, 179, 144, 0.701);
+  border-radius: 30px;
+  border: 3px solid #3d230e;
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+  height: 455px;
+}
+
+.bem-vindo {
+  width: 55%;
+  padding: 50px;
+}
+
+.bem-vindo h2 {
+  font-size: 30px;
+  color: #3d230e;
+  margin-top: -5px;
+  background-color: rgba(210, 179, 144, 0.701);
+  border-radius: 40px;
+}
+
+.bem-vindo h3 {
+  margin-top: -10px;
+  font-size: 20px;
+  color: #3d230e;
+  background-color: rgba(210, 179, 144, 0.701);
+  border-radius: 40px;
+  padding: 10px; /* Distância de 5px entre o texto e o fundo */
+  display: inline-block; /* Para que o fundo se ajuste ao tamanho do texto */
+
+}
+
+.bem-vindo p {
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #3d230e;
+  background-color: rgba(210, 179, 144, 0.701);
+  border-radius: 40px;
+  padding: 5px; /* Distância de 5px entre o texto e o fundo */
+  display: inline-block; /* Para que o fundo se ajuste ao tamanho do texto */
+}
+
+.bem-vindo img {
+  background-color: rgba(210, 179, 144, 0.701);
+  border-radius: 10px;
+  margin-bottom: -11px;
+}
+
+.fazer-login {
+  width: 40%;
+  text-align: center;
+  
+}
+
+.fazer-login a {  
+  text-decoration: none; /* Remove o sublinhado */
+  
+  color: #3d230e;
+  font-weight: bold;
+  
+}
+
+.fazer-login a:hover{
+  text-decoration: underline;
+}
+
+.fazer-login label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #3d230e;
+}
+
+.fazer-login input {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 3px solid #3d230e; /* Borda consistente */
+  border-radius: 10px;
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+  
+}
+
+.fazer-login button {
+  height: 50px;
+  width: 40%;
+  padding: 10px;
+  border: none;
+  background-color: #5A361A; /* Cor de fundo consistente */
+  color: #FDDEC1; /* Cor do texto consistente */
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+  margin-top: 40px;
+  border: 3px solid #3d230e; /* Borda consistente */
+}
+
+.fazer-login button:hover {
+  background-color: #FDDEC1; /* Cor de fundo ao passar o mouse */
+  color: #3d230e; /* Cor do texto ao passar o mouse */
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}
+
+/* Estilo do rodapé */
+
+footer {
+  border-top: 3px solid #3d230e;
+  background-color: #5A361A;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+footer img {
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+  border-radius: 50px;
+  border: 3px solid #3d230e;
+}
+
+footer h6{
+  margin-left: 10px;
+}
+
+footer h2 {
+  margin: 10px 0;
+  border-radius: 40px;
+  border: 3px solid #3d230e;
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+footer .listFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .listFooter ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .listFooter ul li a {
+  color: #FDDEC1;
+  text-decoration: none;
+}
+
+footer .listFooter ul li a:hover {
+  text-decoration: underline;
+  color: #B26F42;
+}
+
+.redesSociais {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.redesSociais img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+  box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+  border-radius: 10px;
+}
+
+.redesSociais img:hover {
+  transform: scale(1.1);
+}
+
+
+/* Responsividade */
+@media screen and (max-width: 1024px) {
+  body {
+      font-size: 16px;
+      padding: 10px;
+  }
+
+  header {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+  }
+
+  header .logo {
+      height: 50px;
+      margin-bottom: 10px;
+  }
+
+  header .criar-conta {
+      font-size: 14px;
+  }
+
+  .login-secao {
+      flex-direction: column;
+      max-width: 90%;
+      margin: 20px auto;
+      padding: 20px;
+      height: auto;
+  }
+
+  .bem-vindo {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .bem-vindo h2 {
+      font-size: 26px;
+  }
+
+  .bem-vindo h3 {
+      font-size: 20px;
+  }
+
+  .bem-vindo p {
+      font-size: 16px;
+  }
+
+  .fazer-login {
+      width: 100%;
+      text-align: center;
+  }
+
+  .fazer-login label {
+      font-size: 20px;
+  }
+
+  .fazer-login input {
+      width: 80%;
+      padding: 10px;
+  }
+
+  .fazer-login button {
+      width: 60%;
+      font-size: 14px;
+  }
+
+  footer {
+      font-size: 12px;
+      padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 14px;
+      padding: 0px;
+  }
+
+  header {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+  }
+
+  header .logo {
+      height: 40px;
+      margin-bottom: 10px;
+      margin-left: 40px;
+  }
+
+  header .criar-conta {
+      font-size: 12px;
+      margin-left: 50px;
+  }
+
+  .login-secao {
+    flex-direction: column;
+    max-width: 95%;
+    margin: 15px auto;
+    padding: 15px;
+    height: auto;
+}
+
+.bem-vindo {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.bem-vindo h2 {
+    font-size: 22px;
+}
+
+.bem-vindo h3 {
+    font-size: 18px;
+}
+
+.bem-vindo p {
+    font-size: 14px;
+}
+
+.fazer-login {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.fazer-login label {
+    font-size: 18px;
+}
+
+.fazer-login input {
+    width: 40%;
+    padding: 8px;
+}
+
+.fazer-login button {
+    width: 60%;
+    font-size: 14px;
+}
+
+footer {
+    font-size: 12px;
+    padding: 10px;
+}
+
+footer h1,
+footer .listFooter h2 {
+    font-size: 2.5vh; /* Ajuste para responsividade */
+}
+
+footer .listFooter ul li a {
+    font-size: 1.5vh; /* Ajuste para responsividade */
+}
+
+footer .redesSociais div img {
+    width: 30px; /* Ajuste para responsividade */
+    height: 30px; /* Ajuste para responsividade */
+}
+}
