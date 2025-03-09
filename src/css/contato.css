@@ -15,7 +15,7 @@ body {
     background-color: #5A361A;
 }
 
-.topo:hover {
+.topo img:hover {
     transition: transform 0.5s;
     transform: scale(1.1);
 }
