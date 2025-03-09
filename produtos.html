@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/produtos.css">
+    <title>Produtos</title>
+</head>
+<body>
+    <header class="topo">
+        <img src="./src/assets/NovoICONE.png" alt="Eucalyptus Coffee" class="logo">
+    </header>
+   
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contanto.html">Contato</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+        </ul>
+    </nav>
+    
+    <div class="user-link">
+        <a class="usuario-icone" href="login.html">
+            <img src="./src/assets/UsuarioICONE.png" alt="Ícone do usuário">
+        </a>
+    </div>
+
+    <!-- Carrossel de cada dia da semana -->
+    <section class="carousel-container">
+        <h2>Segunda-Feira</h2>
+        <div class="carousel-wrapper">
+            <div class="carousel" id="segunda">
+                <div class="item"><img src="./src/assets/Café Mocha.png" alt="Produto 1"><p>Café Mocha</p></div>
+                <div class="item"><img src="./src/assets/Café com Leite.png" alt="Produto 2"><p>Café com Leite</p></div>
+                <div class="item"><img src="./src/assets/Café Gelado.png" alt="Produto 3"><p>Café Gelado</p></div>
+                <div class="item"><img src="./src/assets/bolo.redvelt.jpeg" alt="Produto 4"><p>Bolo RedVelvet</p></div>
+                <div class="item"><img src="./src/assets/cookie.jpeg" alt="Produto 5"><p>Cookie Classico</p></div>
+                <div class="item"><img src="./src/assets/cafe.sorvete.jpeg" alt="Produto 6"><p>Café com Sorvete</p></div>
+            </div>
+        </div>
+        <button class="prev" onclick="moveCarousel(-1, 'segunda')">&#10094;</button>
+        <button class="next" onclick="moveCarousel(1, 'segunda')">&#10095;</button>
+    </section>
+
+    <section class="carousel-container">
+        <h2>Terça-Feira</h2>
+        <div class="carousel-wrapper">
+            <div class="carousel" id="terca">
+                <div class="item"><img src="./src/assets/cafe.normal.jpeg" alt="Produto 7"><p>Café Classico</p></div>
+                <div class="item"><img src="./src/assets/cappuchino.jpeg" alt="Produto 8"><p>Cappucino</p></div>
+                <div class="item"><img src="./src/assets/bolocenoura.jpeg" alt="Produto 9"><p>Bolo de Canoura com Chocolate</p></div>
+            <div class="item"><img src="./src/assets/bolo.chocolate.jpeg" alt="Produto 10"><p>Bolo de Chocolate</p></div>
+            <div class="item"><img src="./src/assets/cafe.redvelt.jpeg" alt="Produto 11"><p>Café RedVelvet</p></div>
+            <div class="item"><img src="./src/assets/browniw.jpeg" alt="Produto 12"><p>Brownie</p></div>
+        </div>
+    </div>
+    <button class="prev" onclick="moveCarousel(-1, 'terca')">&#10094;</button>
+    <button class="next" onclick="moveCarousel(1, 'terca')">&#10095;</button>
+</section>
+
+<section class="carousel-container">
+    <h2>Quarta-Feira</h2>
+    <div class="carousel-wrapper">
+        <div class="carousel" id="quarta">
+            <div class="item"><img src="./src/assets/panquecas.mel.jpeg" alt="Produto 7"><p>Panquecas com Frutas e Mel</p></div>
+            <div class="item"><img src="./src/assets/pao.de.queijo.jpeg" alt="Produto 8"><p>Pão de Queijo</p></div>
+            <div class="item"><img src="./src/assets/petit.gateu.jpeg" alt="Produto 9"><p>Petit Gateau</p></div>
+            <div class="item"><img src="./src/assets/milshake.cafe.jpeg" alt="Produto 10"><p>Milkshake de Café</p></div>
+            <div class="item"><img src="./src/assets/cafe.sorvete.jpeg" alt="Produto 11"><p>Sobremesa Café e Sorvete</p></div>
+            <div class="item"><img src="./src/assets/cappuchino.jpeg" alt="Produto 12"><p>Cappucino</p></div>
+        </div>
+    </div>
+    <button class="prev" onclick="moveCarousel(-1, 'quarta')">&#10094;</button>
+    <button class="next" onclick="moveCarousel(1, 'quarta')">&#10095;</button>
+</section>
+
+<section class="carousel-container">
+    <h2>Quinta-Feira</h2>
+    <div class="carousel-wrapper">
+        <div class="carousel" id="quinta">
+            <div class="item"><img src="./src/assets/capuccino.pistache.jpeg" alt="Produto 7"><p>Cappucino de Pistache</p></div>
+            <div class="item"><img src="./src/assets/cafe.leite.jpeg" alt="Produto 8"><p>Café com Leite</p></div>
+            <div class="item"><img src="./src/assets/browniw.jpeg" alt="Produto 9"><p>Brownie</p></div>
+            <div class="item"><img src="./src/assets/cafe.normal.jpeg" alt="Produto 10"><p>Café Classico</p></div>
+            <div class="item"><img src="./src/assets/sorvete.baunilha.jpeg" alt="Produto 11"><p>Sorvete de Bauniha</p></div>
+            <div class="item"><img src="./src/assets/bolo.creme.cafe.jpeg" alt="Produto 12"><p>Bolo com Creme de Café</p></div>
+        </div>
+    </div>
+    <button class="prev" onclick="moveCarousel(-1, 'quinta')">&#10094;</button>
+    <button class="next" onclick="moveCarousel(1, 'quinta')">&#10095;</button>
+</section>
+
+<section class="carousel-container">
+    <h2>Sexta-Feira</h2>
+    <div class="carousel-wrapper">
+        <div class="carousel" id="sexta">
+            <div class="item"><img src="./src/assets/mousse.cafe.jpeg" alt="Produto 7"><p>Mousse de Café</p></div>
+            <div class="item"><img src="./src/assets/tiramisu.jpeg" alt="Produto 8"><p>Tiramisu de Café</p></div>
+            <div class="item"><img src="./src/assets/pudim.jpeg" alt="Produto 9"><p>Pudim</p></div>
+            <div class="item"><img src="./src/assets/cafe.leite.jpeg" alt="Produto 10"><p>Café com Leite</p></div>
+            <div class="item"><img src="./src/assets/sorvete.cafe.jpeg" alt="Produto 11"><p>Sorvete de Café</p></div>
+            <div class="item"><img src="./src/assets/croasant.jpeg" alt="Produto 12"><p>Croasant Doce</p></div>
+        </div>
+    </div>
+    <button class="prev" onclick="moveCarousel(-1, 'sexta')">&#10094;</button>
+    <button class="next" onclick="moveCarousel(1, 'sexta')">&#10095;</button>
+</section>
+
+<section class="carousel-container">
+    <h2>Sábado</h2>
+    <div class="carousel-wrapper">
+        <div class="carousel" id="sabado">
+            <div class="item"><img src="./src/assets/donalts.jpeg" alt="Produto 7"><p>Donalts de Chocolate</p></div>
+            <div class="item"><img src="./src/assets/macarrom.jpeg" alt="Produto 8"><p>Macarrons</p></div>
+            <div class="item"><img src="./src/assets/cafe.leite.jpeg" alt="Produto 9"><p>Café com Leite</p></div>
+            <div class="item"><img src="./src/assets/bolocenoura.jpeg" alt="Produto 10"><p>Bolo de Cenoura com Chocolate</p></div>
+            <div class="item"><img src="./src/assets/cookie.jpeg" alt="Produto 11"><p>Cookie</p></div>
+            <div class="item"><img src="./src/assets/cafe.redvelt.jpeg" alt="Produto 12"><p>Café RedVelvet</p></div>
+        </div>
+    </div>
+    <button class="prev" onclick="moveCarousel(-1, 'sabado')">&#10094;</button>
+    <button class="next" onclick="moveCarousel(1, 'sabado')">&#10095;</button>
+</section>
+
+<section class="carousel-container">
+    <h2>Domingo</h2>
+    <div class="carousel-wrapper">
+        <div class="carousel" id="domingo">
+            <div class="item"><img src="./src/assets/milshake.cafe.jpeg" alt="Produto 7"><p>Milkshake de Café</p></div>
+            <div class="item"><img src="./src/assets/panqueca.docedeleite.jpeg" alt="Produto 8"><p>Panqueca com Doce de Leite</p></div>
+            <div class="item"><img src="./src/assets/cafe.normal.jpeg" alt="Produto 9"><p>Café Classico</p></div>
+            <div class="item"><img src="./src/assets/bannof.jpeg" alt="Produto 10"><p>Bannof</p></div>
+            <div class="item"><img src="./src/assets/cafe.sorvete.jpeg" alt="Produto 11"><p>Sobremesa Café com Sorvete</p></div>
+            <div class="item"><img src="./src/assets/croasant.jpeg" alt="Produto 12"><p>Croasant Doce</p></div>
+        </div>
+    </div>
+    <button class="prev" onclick="moveCarousel(-1, 'domingo')">&#10094;</button>
+    <button class="next" onclick="moveCarousel(1, 'domingo')">&#10095;</button>
+</section>
+<footer>
+    <div>
+        <img src="./src/assets/icone (1).png" alt="icone.footer">
+        <h6>Com você desde 2024</h6>
+        <H6>@COPYRIGHT-Todos os direitos reservados</H6>
+    </div>
+    <div class="listFooter">
+        <h2>Atendimento</h2>
+        <ul>
+            <li><a href="">Fale conosco</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Locais </a></li>
+        </ul>
+    </div>
+  
+    <div class="listFooter">
+        <h2>Informações</h2>
+        <ul>
+            <li><a href="">Perguntas frequentes</a></li>
+            <li><a href="">privacidade</a></li>
+            <li><a href="">Termos e condições</a></li>
+        </ul>   
+    </div>
+  
+    <div class="listFooter">
+        <h2>Trabalhe Conosco</h2>
+        <ul>
+            <li><a href="">Currículo</a></li>
+            <li><a href="">Parcerias</a></li>
+          </ul>
+      </div>
+    
+      <div class="redesSociais">
+          <div>
+              <img src="./src/assets/InstaIMG (1).png" alt="" title="">
+          </div>
+          <div>
+              <img src="./src/assets/TiktokIMG.png" alt="" title="">
+          </div>
+          <div>
+              <img src="./src/assets/WhatsappIMG.png" alt="" title="">
+          </div>
+      </div>
+      
+    </footer>
+    <script src="./src/js/produtos.js"></script>
+</body>
+</html>

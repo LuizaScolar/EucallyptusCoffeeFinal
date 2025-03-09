@@ -1,0 +1,267 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3d230e;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/fundo.inicial.jpg);
+    height: 1px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; /* Aumenta o padding para aumentar o header */
+    background-color: #5A361A;
+}
+
+.topo :hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 3px solid #3d230e;
+    border-radius: 90px;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+.logo :hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+nav {
+    background-color: #B26F42;
+    padding: 10px 0;
+    border: 3px solid #3d230e;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+nav :hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #FDDEC1;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #FDDEC1;
+    color: #3d230e;
+    border: 3px solid #3d230e;
+}
+
+.usuario-icone {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.usuario-icone img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #3d230e;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+.usuario-icone:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.team-container {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 20px;
+}
+
+.texto h1 {
+    font-size: 40px;
+    background-color: #5A361A;
+    color: #FDDEC1;
+    border-bottom: #3d230e 3px solid;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: -20px;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+.texto h1:hover {
+    border-top: #3d230e 3px solid;
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 75px;
+}
+
+.team-member {
+    background-color: #d2a679;
+    padding: 20px;
+    border-radius: 90px;
+    border: #3d230e 3px solid;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+.team-member p {
+    font-size: 20px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 40px;
+    border: #3d230e 3px solid;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+.team-member img:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.team-container h2 {
+    background-color: #3d230e;
+    color: #FDDEC1;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.team-container h2:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #5A361A;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+footer img {
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+    border-radius: 50px;
+    border: 3px solid #3d230e;
+}
+
+footer h6 {
+    margin-left: 10px;
+}
+
+footer h2 {
+    margin: 10px 0;
+    border-radius: 40px;
+    border: 3px solid #3d230e;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+}
+
+footer .listFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .listFooter ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .listFooter ul li a {
+    color: #FDDEC1;
+    text-decoration: none;
+}
+
+footer .listFooter ul li a:hover {
+    text-decoration: underline;
+    color: #B26F42;
+}
+
+.redesSociais {
+    display: flex;
+    gap: 20px;
+}
+
+.redesSociais img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 7px rgba(76, 26, 0, 1.5);
+    border-radius: 10px;
+}
+
+.redesSociais img:hover {
+    transform: scale(1.1);
+}
+
+footer img:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box; /* Inclui padding e border na largura e altura total */
+    }
+
+    .logo {
+        width: 70%; /* Ajusta a largura da logo */
+    }
+
+    .texto h1{
+        font-size: 30px;
+    }
+
+    .team-member{
+        flex-direction: column;
+        align-items: center;
+        width: 295px;
+    }
+
+    .team-container {
+        flex-direction: column; /* Alinha os itens em coluna */
+        align-items: center; /* Centraliza os itens */
+    }
+}
